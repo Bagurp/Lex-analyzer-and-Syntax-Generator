@@ -1,0 +1,10 @@
+program myprogram;
+x:long integer;        
+beginprogram	
+read x;
+write x; 
+  
+endprogram
+
+
+

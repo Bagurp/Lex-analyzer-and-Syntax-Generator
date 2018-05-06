@@ -1,0 +1,26 @@
+program myprogram;
+n:integer;        
+i,j,k:integer;         
+x,y,z:integer;         
+t:array(100) of integer;	 
+beginprogram	
+read n,i,j,k,x,y;
+if i<j or j<=n and i>=0 and n>y and y<8 and x>10 and k>50 then  
+	t(i):=i;       
+	t(j):=j;       
+	k:=t(j);       
+	t(i):=t(j);        
+	t(j):=t(i);	              	
+else  	          
+	while x>y or false loop  
+        x:=x-10;    
+		write k;              	
+	endloop;   
+endif;
+	
+write t(i),t(j),i,j,x,y;     
+  
+endprogram
+
+
+
