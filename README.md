@@ -2,7 +2,8 @@
 
 Lexical Analyzer and Syntax Analysis Generator
 
-In this part of project, you will build lexical analyzer and a syntax analysis for high level language called MINI-L. The lexical analyzer should take as input a MINI-L source code, and output the lexical tokens associated with the program.
+In this project, we built lexical analyzer and a syntax analysis for high level language called MINI-L. The lexical analyzer takes as input a MINI-L source code, and output the lexical tokens associated with the program.
+
 The MINI-L language description is described as follows:
 1.	Integer scalar variables. 
 2.	One-dimensional arrays of integers. 
